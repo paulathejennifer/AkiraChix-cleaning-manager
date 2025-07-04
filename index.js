@@ -1,6 +1,5 @@
 
 const areas = [
-    {name:"Windows", difficulty:"Easy", needed:5},
     {name: "Washrooms", difficulty:"Medium", needed:5},
     {name: "Entrance & Pavement", difficulty: "Hard", needed: 6 },
     {name: "Kaya", difficulty: "Medium", needed: 6 },
