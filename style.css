@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    background: linear-gradient(135deg, #c7badf 0%, #fffaf1 100%);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.main-container {
+    background: white;
+    max-width: 480px;
+    margin: 48px auto;
+    padding: 32px 24px;
+    border-radius: 18px;
+    box-shadow: 0 4px 26px 0 rgba(0,0,0,0.09);
+    text-align: center;
+}
+
+h1 {
+    color: #4870ac;
+    letter-spacing: 1px;
+    font-size: 2rem;
+    margin-bottom: 18px;
+}
+
+textarea {
+    width: 100%;
+    min-height: 110px;
+    border: 1.5px solid #bed1e6;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 1rem;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    resize: vertical;
+    background: #f7fbfd;
+    transition: border 0.2s;
+}
+
+textarea:focus {
+    border: 1.5px solid #5a9bd8;
+    outline: none;
+}
+
+button {
+    background: linear-gradient(90deg, #2c80b4 60%, #53c6b4 100%);
+    color: white;
+    padding: 12px 20px;
+    margin: 8px 6px 18px 6px;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0 2px 10px rgba(44,128,180,0.07);
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.09s, background 0.22s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #53c6b4 60%, #2c80b4 100%);
+    transform: scale(1.05);
+}
+
+#scheduleOutput {
+    background: #f9fbfd;
+    border-radius: 10px;
+    margin: 0 auto 14px auto;
+    padding: 18px 10px;
+    min-height: 60px;
+    color: #294c60;
+    font-size: 1.02rem;
+    text-align: left;
+    white-space: pre-wrap;
+    box-shadow: 0 1px 5px rgba(44,128,180,0.04);
+}
+
+.schedule-area {
+    background: #e7f1fa;
+    border-left: 5px solid #2c80b4;
+    border-radius: 8px;
+    margin-bottom: 14px;
+    padding: 10px 14px;
+    box-shadow: 0 1px 3px rgba(90,155,216,0.06);
+}
+
+.area-title {
+    font-weight: 700;
+    color: #25568b;
+    font-size: 1.1em;
+    letter-spacing: 0.15em;
+}
+
+.warning {
+    color: #bb2222;
+    font-weight: bold;
+    margin-left: 6px;
+}

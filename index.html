@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cleaning Schedule Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/favicon_io (20)/android-chrome-192x192.png">
+</head>
+<body>
+    <img src="images/akirachix-logo-650x255.png" alt="" width="250" height="100">
+    <div class="main-container">
+        <h1>Cleaning Schedule Generator</h1>
+        <div style="color:#5a9bd8;margin-bottom:8px;">
+            Organize your team's cleaning assignments with one click!
+        </div>
+        <textarea name="" id="studentList" placeholder="Enter student name and email, e.g.:
+Jennifer,jennifer@email.com"></textarea>
+        <button onclick="saveStudents()">Save Student List</button>
+        <button onclick="generateSchedule()">Generate Schedule</button>
+        <button onclick="generateAndSendSchedule()">Generate &amp; Email Schedule</button>
+        <div id="scheduleOutput"></div>
+        <div style="margin-top:18px;font-size:0.92rem;color:#aaa;">
+            Made with ❤️ from AkiraChix 2025
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
